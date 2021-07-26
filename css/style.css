@@ -28,6 +28,13 @@ header nav img:nth-child(7) {
   margin-left: 10px;
 }
 
+#border1 {
+  Margin-top: 5px;
+  margin-bottom: 80px;
+  width: 40px;
+  height: 12px;
+}
+
 section div {
   display: flex;
   justify-content: space-between;
@@ -54,6 +61,17 @@ section div p {
   align-self: flex-end;
 }
 
+#p1, #p2, #p3 {
+  color: gray;
+  font-size: .9em;
+  text-indent: 35px;
+  margin-top: 30px;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 1.5px;
+  font-weight:590;
+
+}
+
 section article {
   margin-top: 25px;
 }
@@ -61,3 +79,54 @@ section article {
 article img {
   width: 960px;
 }
+
+#leftUl, #rightUl {
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+
+}
+
+ul {
+  display: flex;
+  background-image: url("/img/list-bg.png");
+  height: 256px;
+  width: 950px;
+  justify-content: space-around;
+  padding-top: 49px;
+  margin-top: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: ;
+  color: rgb(168, 77, 77);
+  font-size: 25px;
+  
+}
+
+li {
+  list-style-image: url("/img/check-box.PNG");
+  margin-top: 4px;
+  margin-bottom: -2px 
+}
+
+#sugar, #egg {
+  list-style-image: url("/img/check-box-checked.PNG");
+  padding: 2px;
+  text-decoration: line-through;}
+
+  #border2 {
+   margin-top: 20px ;
+   margin-bottom: 20px;
+  }
+
+  #vanessa {
+    display: flex;
+    justify-content: start;
+    font-family: 'Noto Serif', serif;
+  }
+
+  footer {
+  display: flex;
+  justify-content: unset;
+  text-align: center;
+  margin: 80px
+  }
